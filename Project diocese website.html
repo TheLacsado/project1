@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Official Diocese of Tagbilaran website</title>
+  <style>
+  
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10;
+      padding: 20;
+    }
+
+    .header {
+       background-image: url("file:///C:/Users/User/Documents/JP%20files/UB%20THINGS/New%20Project.png");
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+	  
+    }
+
+    h1 {
+	  font-family: "Times New Roman", Times, serif;
+      font-size: 50px;
+      margin: 0px;
+	  color: white;
+	 
+    }
+	
+
+    .tagline {
+	  font-family: "Lucida Handwriting", Times, serif;
+      font-size: 17px;
+      font-style: italic;
+      margin-top: 0;
+	  text-align: center;
+	  font-color: #ffbf00;
+	  
+    }
+	
+     .glow-text {
+      text-shadow: 0 0 10px gold;
+	  }
+	  
+    .navbar {
+      background-color: #ffff00;
+      color: #ffff00;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar li {
+      display: inline;
+      margin: 0px;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+	
+	
+    
+	  
+  {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #cccc00;
+  overflow: auto;
+}
+
+.navbar a {
+  float: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 50%; 
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #cccc00;
+}
+
+.navbar a.active {
+  background-color: #cccc00;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+ .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .image {
+            max-width: 8%;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .image {
+            max-width: 10%;
+            height: auto;
+            margin-right: 10px;
+			
+	    
+	  }
+	  
+	  h2 {
+      font-size: 20px;
+      margin-top: 10px;
+	  font-color: #fffff;
+	  text-align: center;
+    }
+	
+	form {
+      font-size: 20px;
+      margin-top: 0px;
+	  font-color: #fffff;
+	 
+	  position: absolute;
+      top: 2%;
+      bottom: 50%;
+	  
+	  transform: translate(-45%, -50%, );
+    }
+	
+	.special-container {
+            border: 5px solid black;
+            padding: 10px;
+            margin-top: 0px;
+			height: 250px;
+			width: 400px;
+			text-align: center;
+			position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+			}
+			
+	p.small{
+	line-height: 1
+	
+	}
+	
+	.p1 {
+	 font-family: "Garamond", times, serif;
+	 }
+	
+	p.font-size{
+	font-size: 30px;
+	}		
+	
+	.overlay {
+      position: absolute;
+      margin: 0;
+	  padding: 0;
+	  top: 50;
+	  
+	  right: 50;
+      left: 50;
+      width: 100%;
+      height: 100%;
+      background-image: url("file:///C:/Users/User/Documents/JP%20files/UB%20THINGS/Bishop%20+%20clergy.png");
+      background-repeat: no-repeat;
+      background-size: 98.8% 70%;
+      opacity: 0.7; 
+	  
+    }
+  </style>
+  
+ 
+</head>
+
+  <header class="header">
+ 
+   <div class="second-container">
+    <div class="container">
+       <img class="image" src="file:///C:/Users/User/Documents/JP%20files/UB%20THINGS/diocese%20logo.png" alt="Image">
+      <h1 class=glow-text  h1>  <p>DIOCESE OF TAGBILARAN</p>
+    <p class="tagline">"OMNIA FACIO PROPTER EVANGELIUM"</p></h1>
+	<img class="image" src="file:///C:/Users/User/Documents/JP%20files/UB%20THINGS/Diocese-of-Tagbilaran.png" alt="Image">
+	 </div>
+	 </div
+	 
+  </header> 
+  
+  <nav class="navbar"></nav>
+ </head>
+
+   <script>
+        function validateLogin() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            
+            if ((username === "John Paul" && password === "Lacsado") || 
+			(username === "Rhealyn" && password === "Tapay") || 
+			(username === "JP" && password === "12345" ) ||
+			(username === "Daryll Louis Camargo" && password === "12345" )) {
+                window.location.href = "file:///C:/Users/User/Documents/JP%20files/UB%20THINGS/diocese.html";
+            } else {
+                document.getElementById("error").innerHTML = "INVALID USERNAME OR PASSWORD";
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+            var passwordInput = document.getElementById('password');
+            passwordInput.addEventListener("keyup", function(event) {
+                if (event.keyCode === 13) { 
+                    event.preventDefault(); 
+                    validateLogin(); 
+                }
+            });
+        });
+    </script>
+<body>
+<div class="overlay"></div>
+
+ <div class= "container special-container">
+ <form>
+  <h2><p class="font-size">LOGIN</p></h2>
+   <p class="small">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+		
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+		
+        
+        <input type="button" value="Login" onclick="validateLogin()"><br><br>
+		
+        <p id="error" style="color: red;"></p></div></p>
+    </form>
+	
+	
+	
+ </body>
+ 
+</html>
+
+  
